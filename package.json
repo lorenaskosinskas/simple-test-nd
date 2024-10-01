@@ -1,0 +1,27 @@
+{
+  "name": "simple-test-nd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint",
+    "build": "npx tsc",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "dotenv": "^16.4.5",
+    "eslint-plugin-playwright": "^1.6.2",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^8.7.0"
+  },
+  "dependencies": {
+    "typescript": "5.5.4"
+  }
+}
